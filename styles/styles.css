@@ -1,0 +1,81 @@
+/* styles for example pages (and maybe more) */
+body {
+    color: #666;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #456;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    line-height: 1.5em;
+}
+
+h3 {
+    color: #456;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+hr {
+    max-width: 800px;
+    margin: 18px auto;
+    border: 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid white;
+}
+
+img {
+    max-width: 40vw;
+    display: block;
+    margin: 40px auto;
+}
+
+a {
+    line-height: 100px;
+    font-weight: 400;
+    color: #4A8BEE;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto 20px;
+}
+/*
+.go-back {
+    display: none;
+}
+*/
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.test {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+.svginvert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}

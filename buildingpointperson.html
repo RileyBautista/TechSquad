@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <title>Chromebook Issues?</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/buttons.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.6.0/d3.js"></script>
+  <style>
+    table {
+      Text-decoration: none;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 1px;
+      margin: 0px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+      padding: 1px;
+      margin: 0px;
+    }
+    .table a{
+      line-height: 18px;
+      font-weight: 40;
+      color: #4A8BEE;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <img src="LogoHeader.png"
+       alt="wildcat"/>
+  <h1>
+    The Building Point Person can help you...
+  </h1>
+  <div class="container">
+    <h3>They may send it to tech squad for hardware, or help you with user accounts.</h3>
+    <hr />
+  </div>
+  <table align="center" class="table">
+    <tr>
+      <th>Building</th>
+      <th>Person</th>
+    </tr>
+    <tr>
+      <td>Center Elementary</td>
+      <td><a href="mailto:jdoe@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+        Jane Doe</a></td>
+    </tr>
+    <tr>
+        <td>Gates Mills Elementary</td>
+        <td><a href="mailto:jdoe@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+          Jane Doe</a></td>
+    </tr>
+    <tr>
+        <td>Lander Elementary</td>
+        <td><a href="mailto:jdoe@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+          Jane Doe</a></td>
+    </tr>
+    <tr>
+        <td>Millridge Elementary</td>
+        <td><a href="mailto:jdoe@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+          Jane Doe</a></td>
+    </tr>
+    <tr>
+        <td>Middle School</td>
+        <td><a href="mailto:jdoe@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+          Jane Doe</a></td>
+    </tr>
+    <tr>
+        <td>High School</td>
+        <td><a href="mailto:hwellendorf@mayfieldschools.org?Subject=Chromebook%20issue" target="_top">
+          Heather Wellendorf</a></td>
+    </tr>
+  </table>
+  <div class="container">
+    <hr />
+    <p>If you like, you can print the issue ticket below to fill out and bring to the Building Point Person.</p>
+    <button class="button button1" type="button" onclick="printdoc()">Print Issue Ticket</button>
+    <br>
+    <iframe id="printf" name="printf" src="https://docs.google.com/a/mayfieldschools.org/document/d/e/2PACX-1vSYtVB6XIlmHL-pZVHcC_tgZYf3dJtx4Vkbjmh5c-wfGUbHZr5xgutJuEMjau-TIhbEgW_fJDg3IP56/pub?embedded=true" width="50%"></iframe>
+  </div>
+  <script>
+    function printdoc(){
+      window.frames["printf"].focus();
+      window.frames["printf"].print();
+    }
+  </script>
+</body>
+</html>
+
