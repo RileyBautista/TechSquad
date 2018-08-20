@@ -6,7 +6,6 @@
     <title>Chromebook Issues?</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/buttons.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   </head>
   <body>
     <img src="LogoHeader.png"
@@ -19,16 +18,9 @@
       <p>The ChromeStore outside the High School Cafeteria and available nearly all class periods.</p>
       <hr />
       <p>If you like, you can print the issue ticket below to fill out and bring to the Tech Squad or Building Point Person.</p>
-      <button class="button button1" type="button" onclick="printdoc()">Print Issue Ticket</button>
-      <br>
-      <iframe id="printf" name="printf" src="https://docs.google.com/a/mayfieldschools.org/document/d/e/2PACX-1vSYtVB6XIlmHL-pZVHcC_tgZYf3dJtx4Vkbjmh5c-wfGUbHZr5xgutJuEMjau-TIhbEgW_fJDg3IP56/pub?embedded=true" width="50%" height="400px"></iframe>
+      <iframe src="cbissueticket.pdf" width="50%" height="400px"></iframe>
     </div>
-    <script>
-      function printdoc(){
-        window.frames["printf"].focus();
-        window.frames["printf"].print();
-      }
-    </script>
+
   </body>
 </html>
 

@@ -6,7 +6,6 @@
   <title>Chromebook Issues?</title>
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/buttons.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.6.0/d3.js"></script>
   <style>
     table {
       Text-decoration: none;
@@ -83,16 +82,8 @@
   <div class="container">
     <hr />
     <p>If you like, you can print the issue ticket below to fill out and bring to the Building Point Person.</p>
-    <button class="button button1" type="button" onclick="printdoc()">Print Issue Ticket</button>
-    <br>
-    <iframe id="printf" name="printf" src="https://docs.google.com/a/mayfieldschools.org/document/d/e/2PACX-1vSYtVB6XIlmHL-pZVHcC_tgZYf3dJtx4Vkbjmh5c-wfGUbHZr5xgutJuEMjau-TIhbEgW_fJDg3IP56/pub?embedded=true" width="50%"></iframe>
+    <iframe src="cbissueticket.pdf" width="50%"></iframe>
   </div>
-  <script>
-    function printdoc(){
-      window.frames["printf"].focus();
-      window.frames["printf"].print();
-    }
-  </script>
 </body>
 </html>
 
