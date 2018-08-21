@@ -68,3 +68,8 @@ a:active{
 .container {
     margin: auto 20px;
 }
+
+footer{
+    padding: 40px;
+    color: lightgray;
+}
