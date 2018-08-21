@@ -47,7 +47,19 @@ a{
     color: #4CAF50;
 }
 
+a:visited{
+    text-decoration: none;
+    text-emphasis: bold;
+    color: #4CAF50;
+}
+
 a:hover {
+    text-decoration: underline;
+    text-emphasis: bold;
+    color: #4CAF50;
+}
+
+a:active{
     text-decoration: underline;
     text-emphasis: bold;
     color: #4CAF50;
