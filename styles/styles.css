@@ -41,41 +41,18 @@ img {
     margin: 40px auto;
 }
 
-a {
-    line-height: 100px;
-    font-weight: 400;
-    color: #4A8BEE;
-    font-size: 18px;
+a{
     text-decoration: none;
+    text-emphasis: bold;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-emphasis: bold;
+    color: #4CAF50;
 }
 
 .container {
     margin: auto 20px;
-}
-/*
-.go-back {
-    display: none;
-}
-*/
-.btn {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-/* On mouse-over */
-.btn:hover {background: #eee;}
-
-.success {color: green;}
-.test {color: dodgerblue;}
-.warning {color: orange;}
-.danger {color: red;}
-.default {color: black;}
-
-.svginvert {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
 }
