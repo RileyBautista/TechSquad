@@ -1,0 +1,33 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
+}
+.three{
+    grid-column: 3;
+    grid-row: 1;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+.fa {
+    text-align: center;
+    text-decoration: none;
+    color:lightgray;
+}
+.fa:hover {
+    opacity: 0.7;
+}
